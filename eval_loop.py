@@ -7,12 +7,12 @@ def eval_loop():
     global answer
 
     while True:
-        text = raw_input("Enter done when finished\n")
-        print text
+        text = input("Enter done when finished\n")
+        print(text)
         if text == "done":
             break
         answer = eval(text)
-        print answer
+        print(answer)
 eval_loop()
-print "Thank you. Your last result is ", answer
+print("Thank you. Your last result is ", answer)
 
